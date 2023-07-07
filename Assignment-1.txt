@@ -1,0 +1,72 @@
+Assignment-1:
+1.Multiply of two numbers:
+
+package javaproblems;
+import java.util.*;
+
+public class multiply {
+    public static void main(String[] args) {
+        int x=2,y=4;
+        System.out.println(x*y);
+    }
+}
+
+2.Print the ASCII value of character ‘U’:
+package javaproblems;
+import java.util.*;
+
+public class Asciivalue {
+    public static void main(String[] args) {
+        int x='U';
+        System.out.println("The Ascii value of U is:" + x);
+    }
+}
+
+3.Area of rectangle:
+package javaproblems;
+import java.util.*;
+
+public class multiply {
+    public static void main(String[] args) {
+        int l=7,b=4;
+        int mul=l*b;
+
+        System.out.println("Area of rectangle:" + mul);
+    }
+}
+
+4.calculate the cube of a number:
+package javaproblems;
+import java.util.*;
+
+public class multiply {
+    public static void main(String[] args) {
+        int x=4;
+        int temp=x*x*x;
+
+        System.out.println("Cube of numbers:" + temp);
+    }
+}
+
+
+5.to swap two numbers with the help of a third variable:
+package javaproblems;
+import java.util.*;
+
+public class multiply {
+    public static void main(String[] args) {
+        int num1=2;
+        int num2=3;
+        System.out.println("The first num before swap:" + num1);
+        System.out.println("The second num before swap:" + num2);
+        int temp;
+        temp=num1;
+        num1=num2;
+        num2=temp;
+        System.out.println("The first num after swap:" + num1);
+        System.out.println("The second num after swap:" + num2);
+    }
+}
+
+
+
